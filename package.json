@@ -1,13 +1,17 @@
 {
   "name": "react-cdp-rest-service",
   "version": "1.0.0",
-  "description": "",
+  "description": "REST service for React CDP task",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Vadym Makhonin <vadimmakhonin@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VadymMakhonin/react-cdp-rest-service.git"
+  },
   "license": "ISC",
   "dependencies": {
     "fastify": "^2.11.0",
