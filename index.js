@@ -2,6 +2,10 @@ const db = require('./db');
 const fastify = require('fastify')({logger: true});
 const uuidv1 = require('uuid/v1');
 
+fastify.register(require('fastify-cors'), {
+    origin: true
+});
+
 fastify.post('/api/login', async (request, reply) => {
     const user = db.get('users')
         .find(request.body)
