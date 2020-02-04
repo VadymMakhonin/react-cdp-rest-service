@@ -1,0 +1,10 @@
+{
+  "users": [
+    {
+      "login": "user1",
+      "password": "qwerty123"
+    }
+  ],
+  "courses": [],
+  "authors": []
+}
